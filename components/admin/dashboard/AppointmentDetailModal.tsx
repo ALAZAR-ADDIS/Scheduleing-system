@@ -1,6 +1,6 @@
 "use client";
 import { X, Link as LinkIcon, Copy } from "lucide-react";
-import { Appointment, STATUS_STYLE, STATUS_DOT } from "@/features/appointments/types";
+import { Appointment, STATUS_STYLE, STATUS_DOT } from "@/state/slices/appointments/types";
 import { useState } from "react";
 
 type Props = {

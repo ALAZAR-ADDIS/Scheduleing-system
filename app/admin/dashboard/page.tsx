@@ -3,7 +3,7 @@ import { useState } from "react";
 import StatsGrid from "@/components/admin/dashboard/StatsGrid";
 import AppointmentTable from "@/components/admin/dashboard/AppointmentTable";
 import AppointmentDetailModal from "@/components/admin/dashboard/AppointmentDetailModal";
-import { MOCK_APPOINTMENTS, Appointment } from "@/features/appointments/types";
+import { MOCK_APPOINTMENTS, Appointment } from "@/state/slices/appointments/types";
 
 export default function DashboardPage() {
   const [selected, setSelected] = useState<Appointment | null>(null);

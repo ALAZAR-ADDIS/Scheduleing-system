@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Search, ChevronDown, ChevronLeft, ChevronRight, ArrowUp, ArrowDown, ArrowUpDown } from "lucide-react";
-import { Appointment, DEPARTMENTS, STATUS_FILTERS, STATUS_STYLE } from "@/features/appointments/types";
+import { Appointment, DEPARTMENTS, STATUS_FILTERS, STATUS_STYLE } from "@/state/slices/appointments/types";
 
 type SortKey = "date" | "employee" | "client";
 type SortDir = "asc" | "desc";

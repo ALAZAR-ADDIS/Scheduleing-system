@@ -1,9 +1,9 @@
 "use client";
 import { Bell, Calendar, UserPlus, User } from "lucide-react";
 import { useRef, useEffect } from "react";
-import { useAppDispatch, useAppSelector } from "@/store/hooks";
-import { markAllRead } from "@/features/notifications/notificationsSlice";
-import type { Notification } from "@/features/notifications/types";
+import { useAppDispatch, useAppSelector } from "@/state/hooks";
+import { markAllRead } from "@/state/slices/notifications/notificationsSlice";
+import type { Notification } from "@/state/slices/notifications/types";
 
 const ICON_MAP = {
   appointment: Calendar,
